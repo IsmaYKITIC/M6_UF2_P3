@@ -1,2 +1,11 @@
-/home/sma/ITIC/Segundo/M6/UF2/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/HibernateUtil.java
-/home/sma/ITIC/Segundo/M6/UF2/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/Main.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/dao/ReservaDAO.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/dao/EmpleatDAO.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/model/Reserva.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/Main.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/HibernateUtil.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/dao/RestaurantDAO.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/model/Restaurant.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/model/Client.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/model/Empleat.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/Utilitats.java
+/home/sma/ITIC/Segundo/M6/UF2/M6_UF2_P3/UF2_ORM_Hibernate/resturant_itic/src/main/java/com/iticbcn/ismaelyounes/dao/ClientDAO.java

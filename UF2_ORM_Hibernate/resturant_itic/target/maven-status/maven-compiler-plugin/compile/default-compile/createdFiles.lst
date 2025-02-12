@@ -1,2 +1,11 @@
+com/iticbcn/ismaelyounes/model/Restaurant.class
 com/iticbcn/ismaelyounes/HibernateUtil.class
+com/iticbcn/ismaelyounes/model/Client.class
+com/iticbcn/ismaelyounes/model/Empleat.class
+com/iticbcn/ismaelyounes/dao/ClientDAO.class
+com/iticbcn/ismaelyounes/model/Reserva.class
+com/iticbcn/ismaelyounes/Utilitats.class
 com/iticbcn/ismaelyounes/Main.class
+com/iticbcn/ismaelyounes/dao/EmpleatDAO.class
+com/iticbcn/ismaelyounes/dao/RestaurantDAO.class
+com/iticbcn/ismaelyounes/dao/ReservaDAO.class

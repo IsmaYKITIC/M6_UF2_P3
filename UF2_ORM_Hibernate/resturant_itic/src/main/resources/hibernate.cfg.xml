@@ -14,7 +14,7 @@
         <property name="connection.password">root</property>
 
         <!-- Dialecto específico para MariaDB -->
-        <property name="dialect">org.hibernate.dialect.MariaDBDialect</property>
+        <property name="dialect">org.hibernate.dialect.MySQLDialect</property>
 
         <!-- Configuraciones adicionales -->
         <property name="connection.pool_size">5</property>
@@ -23,15 +23,17 @@
 
         <!-- Configuración de hbm2ddl -->
         <property name="hbm2ddl.auto">update</property>
+        
+        <!-- Opcional: Mapeo manual de clases si no usas anotaciones --> 
+        <mapping resource="Empleat.hbm.xml"/>
 
         <!-- Detección automática de entidades anotadas con @Entity -->
-        <property name="hibernate.archive.autodetection">class</property>
+        <mapping class="com.iticbcn.ismaelyounes.model.Client" />
+        <mapping class="com.iticbcn.ismaelyounes.model.Restaurant" />
+        <mapping class="com.iticbcn.ismaelyounes.model.Reserva" />
 
-        <!-- Opcional: Mapeo manual de clases si no usas anotaciones -->
-        <!-- 
-        <mapping class="com.iticbcn.ismaelyounes.model.Usuario"/>
-        <mapping class="com.iticbcn.ismaelyounes.model.Pedido"/>
-        -->
+        
+       
 
     </session-factory>
 </hibernate-configuration>

@@ -1,0 +1,25 @@
+<!DOCTYPE hibernate-mapping PUBLIC
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <!-- Mapeig de la clase Empleats -->
+    <class name="com.iticbcn.ismaelyounes.model.Empleat" table="Empleats">
+        <id name="idEmpleat" column="idEmpleat" type="long">
+            <generator class="identity"/>
+        </id>
+
+        <property name="nom" column="nom" type="string" not-null="true" />
+
+        <property name="telefon" column="telefon" type="string" not-null="true" unique="true" />
+
+        <property name="correo" column="correo" type="string" not-null="true" unique="true" />
+
+        <many-to-one name="restaurant" column="idRestaurant" cascade="persist" fetch="LAZY"/>
+
+
+
+        
+        
+    </class>
+</hibernate-mapping>
